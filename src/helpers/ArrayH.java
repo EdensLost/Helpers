@@ -262,6 +262,16 @@ public class ArrayH {
             return count;
         }
         //char
+        /**
+         * Used to get the amount of a certain value in the array
+         * <p> Ex: array = {'a', 'b'} 
+         * <p> count(array, 'a')
+         * <p> output = 1
+         * 
+         * @param array The array to search
+         * @param value The value to search for
+         * @return {@code int} The count of value
+         */
         public int count(char[] array, char value) {
             int count = 0;
 
@@ -274,6 +284,16 @@ public class ArrayH {
             return count;
         }
         //boolean
+        /**
+         * Used to get the amount of a certain value in the array
+         * <p> Ex: array = {true, false} 
+         * <p> count(array, true)
+         * <p> output = 1
+         * 
+         * @param array The array to search
+         * @param value The value to search for
+         * @return {@code int} The count of value
+         */
         public int count(boolean[] array, boolean value) {
             int count = 0;
 
